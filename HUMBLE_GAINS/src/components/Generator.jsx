@@ -97,7 +97,13 @@ export default function Generator(props) {
                     )
                 })}
             </div>
-            <Button func={updateWorkout} text={"Formulate"}></Button>
+            <Button 
+                func={() => {
+                    window.location.href = '#Formulate';
+                    updateWorkout();
+                }} 
+                text={"Formulate"}
+            ></Button>
         </SectionWrapper>
         </section>
     )
