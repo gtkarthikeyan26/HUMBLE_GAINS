@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist'  // This is where your built files will go
+    outDir: 'dist',
+    base:'/HUMBLE_GAINS/'  // This is where your built files will go
   }
 })
