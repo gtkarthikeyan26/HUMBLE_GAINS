@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist',
-    base:'/HUMBLE_GAINS/'  // This is where your built files will go
+    base:'/HUMBLE_GAINS'  // This is where your built files will go
   }
 })
